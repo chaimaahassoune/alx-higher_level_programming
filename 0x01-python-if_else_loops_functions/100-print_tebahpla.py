@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-for letter in range(ord('z'), ord('A') - 1, -1):
-    if letter % 2 == 0:
-        print("{}".format(chr(letter)), end="")
-    else:
-        print("{}".format(chr(letter).upper()), end="")
+
+toggle = 0
+for c in range(ord('z'), ord('a') - 1, -1):
+    print("{}".format(chr(c - toggle)), end="")
+    toggle = 32 if toggle == 0 else 0
