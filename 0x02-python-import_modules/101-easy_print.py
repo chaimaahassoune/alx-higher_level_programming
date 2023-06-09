@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-import ctypes; ctypes.c_char_p(b"#pythoniscool\n")._write(1)
+__import__("os").write(1, "#pythoniscool\n".encode("UTF-8"))
