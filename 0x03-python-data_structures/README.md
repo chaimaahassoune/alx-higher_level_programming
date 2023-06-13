@@ -43,7 +43,7 @@ The project is structured as follows:
 
 ## Author
 
-This project is created and maintained by ### Chaimaa Hassoune 
+This project is created and maintained by Chaimaa Hassoune 
 
 Feel free to explore the scripts and learn about Python lists and tuples!
 
